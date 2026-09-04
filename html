@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Tecnologia e Educação</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho Principal da Página -->
+  <header>
+    <h1>Blog de Tecnologia & Educação</h1>
+    <p class="subtitle">Aprenda HTML, CSS e conceitos modernos de Front-End</p>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <article class="card">
+      <div class="card-header">
+        <!-- Imagem do Artigo com Atributos src e alt -->
+        <img 
+          src="assets/images/imagem-blog.png" 
+          alt="Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco."
+          class="profile-img"
+        >
+        <div>
+          <h2>Dominando o CSS Box Model e Imagens</h2>
+          <span class="post-date">Publicado em 04 de Setembro de 2026</span>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <p>
+          Agora que já utilizamos os comandos <code>max-width</code> e <code>margin</code> para centralizar o conteúdo da página, é importante compreender como o navegador organiza os espaços dentro de um elemento visual através do <strong>Box Model</strong>.
+        </p>
+
+        <h3>O que compõe o Box Model?</h3>
+        <ul>
+          <li><strong>Content:</strong> A área onde o texto ou imagem é exibido.</li>
+          <li><strong>Padding:</strong> O espaçamento interno entre o conteúdo e a borda.</li>
+          <li><strong>Border:</strong> O limite visual ou linha ao redor do elemento.</li>
+          <li><strong>Margin:</strong> O espaçamento externo que afasta outros elementos ao redor.</li>
+        </ul>
+
+        <div class="code-box">
+          <code>
+            header {<br>
+            &nbsp;&nbsp;background-color: #183C63;<br>
+            &nbsp;&nbsp;color: #FFFFFF;<br>
+            &nbsp;&nbsp;text-align: center;<br>
+            &nbsp;&nbsp;max-width: 800px;<br>
+            &nbsp;&nbsp;margin: 0 auto;<br>
+            &nbsp;&nbsp;padding: 16px;<br>
+            }
+          </code>
+        </div>
+
+        <p>
+          Utilizar imagens com dimensões explícitas (como <code>width: 80px</code> e <code>height: 80px</code>) e um bom texto alternativo (<code>alt</code>) garante a acessibilidade da página para leitores de tela e uma boa experiência mesmo em conexões lentas.
+        </p>
+      </div>
+    </article>
+  </main>
+
+  <!-- Rodapé da Página -->
+  <footer>
+    <p>&copy; 2026 Blog de Tecnologia & Educação. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
